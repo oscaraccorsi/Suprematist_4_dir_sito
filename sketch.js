@@ -67,7 +67,7 @@ let timeSet;
 
 //---------------------------------------------------------preload
 function preload() {
-  h = round(random(25));
+  h = hour();
   img = loadImage(baseURLImage + pictureList[h]);
   logo = loadImage(baseURLImage + "good one white.png");
 
