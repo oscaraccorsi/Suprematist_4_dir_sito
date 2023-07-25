@@ -19,20 +19,32 @@ let logo;
 
 let img;
 let palette = [];
-let pictureList = ['riley57.jpeg', 
-                   'Rothko01.jpg', 
-                   'Rothko07.jpg', 
-                   'Rothko09.jpg', 
-                   'klee.jpg',  
-                   'riley5.jpeg', 
-                   'riley6.jpeg',
-                   'veronesi04.jpeg',
-                   'mond.jpg', 
-                   'schneiderMio.png',
-                   'munariluce.png',
-                   'munariluce.png', 
-                   'munariluce02.png',
-                   'munariluce03.png'];
+let pictureList = ['processor01.png', 
+                   'processor02.png', 
+                   'processor03.png', 
+                   'processor04.png', 
+                   'processor05.png',  
+                   'processor06.png', 
+                   'processor07.png',
+                   'processor08.png',
+                   'processor09.png', 
+                   'processor10.png',
+                   'processor11.png',
+                   'processor12.png', 
+                   'processor13.png',
+                   'processor14.png',
+                   'processor15.png',
+                   'processor16.png',
+                   'processor17.png',
+                   'processor18.png',
+                   'processor19.png',
+                   'processor20.png',
+                   'processor21.png',
+                   'processor22.png',
+                   'processor23.png',
+                   'processor24.png',
+                   'processor25.png',
+                   'processor26.png'];
 
 let xLimitSx, xLimitDx, yLimitUp, yLimitDown;
 let xMomLimitDx, xMomLimitSx, yMomLimitUp, yMomLimitDown;
