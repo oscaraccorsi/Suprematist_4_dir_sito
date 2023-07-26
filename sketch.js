@@ -53,7 +53,7 @@ let x, xx;
 let y, yy;
 
 
-let Inc = 1;
+let Inc = 4;
 
 let fr = [16, 22, 38, 60];
 
