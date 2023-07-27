@@ -63,8 +63,6 @@ let divisoreY;
 let timeArray = [60, 90, 120, 150, 180];
 let timeSet;
 
-
-
 //---------------------------------------------------------preload
 function preload() {
   h = hour();
@@ -76,8 +74,7 @@ function preload() {
 
   divisoreX = random(divArray);
   divisoreY = divisoreX+2;
-  timeSet = random(timeArray);
-   
+  timeSet = random(timeArray); 
 }
 
 //-----------------------------------------------------------SETUP
@@ -104,7 +101,7 @@ function setup() {
     let r = img.pixels[i];
     let g = img.pixels[i + 1];
     let b = img.pixels[i + 2];
-    let alpha = round(random(100, 200));
+    let alpha = round(random(150, 250));
     let c = color(r, g, b, alpha);
     palette.push(c);
     fill(c);
