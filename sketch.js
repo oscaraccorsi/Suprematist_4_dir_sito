@@ -51,7 +51,7 @@ let xMomLimitDx, xMomLimitSx, yMomLimitUp, yMomLimitDown;
 
 let x, xx;
 let y, yy;
-
+let x1, y1;
 
 let Inc = 2;
 
@@ -84,6 +84,9 @@ function preload() {
 function setup() {
   let canvas =  createCanvas(windowWidth, windowHeight);
   canvas.position(windowWidth/2-width/2, windowHeight/2-height/2);
+  x1 = 0;
+  y1 = height-30;
+  
   strokeWeight(1);
   choice = random(direction);
   
@@ -94,7 +97,7 @@ function setup() {
   console.log(pictureList[h], h, timeSet); 
 
 //------------------------------------------------palette
-  
+  img.resize(8, 0);
   img.loadPixels();
   
   for (let i = 0; i < img.pixels.length; i += 4) {
@@ -104,6 +107,9 @@ function setup() {
     let alpha = round(random(100, 200));
     let c = color(r, g, b, alpha);
     palette.push(c);
+    fill(c);
+    square(x1, y1, width/150);
+    x1 += width/150;
   }
   //---------------------------------------rev
   reverb = new p5.Reverb();
